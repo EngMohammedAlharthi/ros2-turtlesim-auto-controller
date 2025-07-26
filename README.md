@@ -1,3 +1,4 @@
+```markdown
 # 🐢 ROS2 Jazzy | Turtlesim Auto Controller
 
 ---
@@ -16,3 +17,44 @@ The turtle will move forward and rotate continuously without manual input.
 ---
 
 ## 📂 Project Structure
+```
+ros2_ws/
+├── src/
+│   └── my_turtle_controller/
+│       ├── package.xml
+│       ├── setup.py
+│       ├── my_turtle_controller/
+│       │   └── move_turtle.py
+└── README.md
+```
+
+---
+
+## 🔧 Requirements
+```bash
+Ubuntu 24.04
+ROS2 Jazzy
+Python 3.x
+colcon build tools
+```
+
+---
+
+## ⚙️ Installation
+```bash
+# Clone this repository
+git clone https://github.com/YOUR_USERNAME/ros2-turtlesim-auto-controller.git
+cd ros2-turtlesim-auto-controller
+
+# Source ROS2
+source /opt/ros/jazzy/setup.bash
+
+# Build workspace
+colcon build
+source install/setup.bash
+```
+
+---
+
+## ▶️ Run the Project
+### 1. Start Tu
